@@ -1,5 +1,6 @@
 # GrowtopiaSaveForwarder
-Remotely Host (A TCP Server for your spreaded clients) and Manage a professional save.dat stealer with extra features and Simple-AAP Bypass for free. This is an open source project!
+Remotely Host (A TCP Server for your spreaded clients) and Manage a professional save.dat stealer with extra features.
+This is an open source project!
 SaveForwarder made by playingo/DEERUX - YT: https://youtube.com/channel/UCeepWySm91lV99AuO4IvQlA
 Detection of AV's comparasion between H4f's save forwarder and my DIY save forwader 
 ``My stealer: (remember that I have used virustotal and released the source of this and FUD might be gone):``
