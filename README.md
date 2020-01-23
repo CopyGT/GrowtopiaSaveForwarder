@@ -14,3 +14,7 @@ REMINDER: "ChattuyCS" is the client, and "Chattuy Server" the saveforwarder serv
 REMINDER: This is undone code (beta).
 
 REMINDER: If FUD expires, add a little junk code into the code, change assembly data such as guid and re compile, it may lower the detection.
+
+Known bugs:
+- Image/Screenshot of desktop appears to be corrupted at some times.
+- Memory usage related stuff, not sure.
