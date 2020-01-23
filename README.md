@@ -17,5 +17,5 @@ REMINDER: If FUD expires, add a little junk code into the code, change assembly 
 
 Known bugs:
 - Image/Screenshot of desktop appears to be corrupted at some times.
-- Memory usage related stuff, not sure.
+- Memory usage related stuff, not sure, garbage collector should handle this at some point.
 - "bug" Currently only handles a max of 256 unique users having their own folder as I literally use one byte to determine to which person the stolen content belongs to, didn't care about changing.
