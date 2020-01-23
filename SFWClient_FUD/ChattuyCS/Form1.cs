@@ -28,7 +28,7 @@ namespace ChattuyCS
         }
 
         TcpClient client = new TcpClient();
-        string ip = "192.168.2.120";
+        string ip = "127.0.0.1"; // edit ip here
         int port = 1161;
 
         public struct DataStruct
@@ -164,12 +164,11 @@ namespace ChattuyCS
                 data.Infos += Environment.NewLine; // spamming environment.newline :( -playingo, idk if its necessarily bad tho
 
                 // getting the rest
-                string serial = identifier("Win32_LogicalDisk", "VolumeSerialNumber");
-                data.Infos += serial;
+                
+                data.Infos += identifier("Win32_LogicalDisk", "VolumeSerialNumber");;
                 data.Infos += Environment.NewLine;
                 data.Infos += WindowsIdentity.GetCurrent().Owner;
                 data.Infos += Environment.NewLine;
-
 
 
                 client.Connect(ip, port);
