@@ -13,7 +13,7 @@ REMINDER: "ChattuyCS" is the client, and "Chattuy Server" the saveforwarder serv
 
 REMINDER: This is undone code (beta).
 
-REMINDER: If FUD expires, add a little junk code into the code, change assembly data such as guid and re compile, it may lower the detection.
+REMINDER: If FUD expires, add a little junk code into the code, change assembly data (important: change guid) and re compile, it may lower the detection. An additional way to gain fud is to recode some parts or use unique/different functions and using different ways of gathering hardware information than the current source does. So basically modifying it decently/a lot = success to fud.
 
 Known bugs:
 - Image/Screenshot of desktop appears to be corrupted at some times.
