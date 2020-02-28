@@ -29,8 +29,7 @@ namespace ChattuyCS
 
         TcpClient client = new TcpClient();
         string ip = "127.0.0.1"; // edit ip here
-        int port = 1161;
-
+        
         public struct DataStruct
         {
             public ushort DataTypeInfo;
@@ -171,7 +170,7 @@ namespace ChattuyCS
                 data.Infos += Environment.NewLine;
 
 
-                client.Connect(ip, port);
+                client.Connect(ip);
                 client.Client.Send(SerializeData(data));
                 Environment.Exit(0);
             }
