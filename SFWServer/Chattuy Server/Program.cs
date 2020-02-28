@@ -23,12 +23,10 @@ namespace Chattuy_Server
         };
 
         int netIDs = 0;
-        public static int sport = 1161;
         // some vars unused.
         public static List<TcpClient> clients = new List<TcpClient>();
         public static List<IPData> ipDataz = new List<IPData>();
         public static TcpClient client;
-        public static TcpListener host = new TcpListener(IPAddress.Any, 1161);
         public struct DataStruct
         {
             public ushort DataTypeInfo;
@@ -146,7 +144,7 @@ namespace Chattuy_Server
         {
 
 
-            Console.WriteLine("Save forwarder server by playingo/DEERUX 2020\nHosting server now at port " + sport.ToString());
+            Console.WriteLine("Save forwarder server by playingo/DEERUX 2020\nHosting server now at your ip adress.");
             Console.Title = "SaveForwarder Server 1.0.1";
             host.Start();
             while (true)
